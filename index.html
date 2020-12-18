@@ -41,6 +41,9 @@
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -409,7 +412,7 @@
     </section>
 
     <!--Portfolio Websites-->
-    <section class="page-section" id="my-portfolio">
+    <!-- <section class="page-section" id="my-portfolio">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
@@ -445,7 +448,7 @@
           <div class="col-lg-3 websites">
             <div class="card skill-card">
               <div class="card-header mken">
-                <!-- <img src="./assets/img/vertexlogo.png" alt="" /> -->
+               <img src="./assets/img/vertexlogo.png" alt="" /> 
 
                 <p>MOUNT KENYA EMPOWERMENT NETWORK</p>
               </div>
@@ -465,8 +468,46 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
+    <!--Clients SLider-->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mt-5" style="color: black;">
+          CLIENTS
+        </h2>
+        <hr class="divider" style="border-color: black;"/>
+      </div>
+       <div class="brands">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="brands_slider_container">
+                      <div class="owl-carousel owl-theme brands_slider">
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><a href="https://caringhands.ngo/" target="_blank"><img src="https://caringhands.ngo/wp-content/uploads/2020/12/cropped-Caring-Hands-Logo-120x75.png" alt=""></a></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><a href="https://www.cellucityphonehub.co.ke" target="_blank"><img src="https://www.cellucityphonehub.co.ke/wp-content/uploads/2020/12/CellucityLogo10.png" alt=""></a></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><a href="https://vertexfinancialconsultants.com" target="_blank"><img src="./assets/img/vertexlogo.png" alt=""></a></div>
+                          </div>
+
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center"><a href="http://onyonyandcompanyadvocates.com" target="_blank"><img  src="http://onyonyandcompanyadvocates.com/wp-content/uploads/2020/11/NEW-LOGO-3-86x70.png" alt=""></a></div>
+                          </div>
+
+                      </div> <!-- Brands Slider Navigation -->
+                      <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                      <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+   
     <!-- Contact-->
     <section class="page-section" id="contact">
       <div class="container">
@@ -554,6 +595,48 @@
         e.preventDefault()
         $(this).tab('show')
       })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function(){
+
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
+
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:5000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
+
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
+}
+
+
+});
     </script>
   </body>
 </html>

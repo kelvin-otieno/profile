@@ -52,7 +52,7 @@
 }
 
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -107,7 +107,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 abbr[title],
@@ -10656,7 +10656,7 @@ header.masthead h1 {
   width: 150px;
 }
 
-#skills{
+#skills {
   background: linear-gradient(
       to bottom,
       rgba(70, 5, 71, 0.8) 0%,
@@ -10669,11 +10669,10 @@ header.masthead h1 {
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
 
-
 #skills span {
   font-size: 52px;
   text-align: center;
-  color:#f4623a;
+  color: #f4623a;
 }
 
 .card {
@@ -10681,19 +10680,18 @@ header.masthead h1 {
   border-radius: 3px;
 }
 
-.col-lg-3{
+.col-lg-3 {
   margin-top: 10px;
 }
 
-.card ul li{
+.card ul li {
   background-color: rgba(218, 213, 213, 0.747) !important;
   font-size: 14px;
   padding-top: 5px;
-  font-family: 'Lato', sans-serif;
-  
+  font-family: "Lato", sans-serif;
 }
-.card ul{
-  height:160px;
+.card ul {
+  height: 160px;
 }
 
 .card :hover {
@@ -10702,14 +10700,14 @@ header.masthead h1 {
 
 #my-portfolio {
   background: #f4623a;
-    
+
   background-position: center;
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 }
 
-#my-portfolio .card-header{
+#my-portfolio .card-header {
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -10722,14 +10720,13 @@ header.masthead h1 {
   background-image: url('../assets/img/onlineshoppingyellow.png');
 } */
 
-
-#my-portfolio .card-header img{
+#my-portfolio .card-header img {
   width: 30%;
   position: absolute;
   left: 0px;
 }
 
-#my-portfolio .card-header p{
+#my-portfolio .card-header p {
   position: absolute;
   right: 0px;
   font-weight: bold;
@@ -10739,15 +10736,15 @@ header.masthead h1 {
 }
 
 #my-portfolio .card {
-  background-color: white!important;
+  background-color: white !important;
   border-radius: 3px;
 }
 
-#my-portfolio .card ul li{
-  background-color: white!important;
+#my-portfolio .card ul li {
+  background-color: white !important;
   font-size: 14px;
   padding-top: 5px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -10774,7 +10771,8 @@ header.masthead h1 {
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -10795,98 +10793,93 @@ header.masthead h1 {
   height: 333px;
   width: 100%;
   vertical-align: auto;
- 
 }
 
-#my-portfolio .card  {
+#my-portfolio .card {
   border: none;
 }
 
-#my-portfolio .card-body  {
+#my-portfolio .card-body {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-#my-portfolio .card-title  {
-  color:white;
+#my-portfolio .card-title {
+  color: white;
 }
 
-
-#my-portfolio .online-shopping .card-header{
-  background-image: url('../assets/img/onlineshoppingyellow.png');
+#my-portfolio .online-shopping .card-header {
+  background-image: url("../assets/img/onlineshoppingyellow.png");
 }
 
-#my-portfolio .online-shopping .flip-card-back{
+#my-portfolio .online-shopping .flip-card-back {
   background-color: #e4d314 !important;
 }
 
-#my-portfolio .online-shopping .card-body{
+#my-portfolio .online-shopping .card-body {
   background-color: #e4d314 !important;
 }
 
-
-#my-portfolio .social-networks .card-header{
-  background-image: url('../assets/img/socialblue.jpg');
+#my-portfolio .social-networks .card-header {
+  background-image: url("../assets/img/socialblue.jpg");
 }
 
-#my-portfolio .social-networks .flip-card-back{
+#my-portfolio .social-networks .flip-card-back {
   background-color: #2bc7f7 !important;
 }
 
-#my-portfolio .social-networks .card-body{
+#my-portfolio .social-networks .card-body {
   background-color: #2bc7f7 !important;
 }
 
-
-
-#my-portfolio .online-voting .card-header{
-  background-image: url('../assets/img/woodlove.jpg');
+#my-portfolio .online-voting .card-header {
+  background-image: url("../assets/img/woodlove.jpg");
 }
 
-#my-portfolio .online-voting .flip-card-back{
+#my-portfolio .online-voting .flip-card-back {
   background-color: #966b10 !important;
 }
 
-#my-portfolio .online-voting .card-body{
+#my-portfolio .online-voting .card-body {
   background-color: #966b10 !important;
 }
 
-#my-portfolio .websites .vertex{
-background-color: #033e5e ;
-text-align: right;
+#my-portfolio .websites .vertex {
+  background-color: #033e5e;
+  text-align: right;
 }
 
-#my-portfolio .websites .mken{
-background-color: #035e29 ;
-text-align: right;
+#my-portfolio .websites .mken {
+  background-color: #035e29;
+  text-align: right;
 }
 
-
-#my-portfolio .websites .card-header p{
+#my-portfolio .websites .card-header p {
   font-weight: bold;
   background-color: transparent;
   color: white;
 }
 
-.websites .card .card-body{
-  height:250px;
+.websites .card .card-body {
+  height: 250px;
 }
 
 #contact {
   background: linear-gradient(
-    to bottom,
-    rgba(70, 5, 71, 0.8) 0%,
-    rgba(67, 26, 68, 0.8) 100%
-  ),
-  url("../assets/img/waves.jpg");
+      to bottom,
+      rgba(70, 5, 71, 0.8) 0%,
+      rgba(67, 26, 68, 0.8) 100%
+    ),
+    url("../assets/img/waves.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;
 }
 
-#contact p,h2 {
-  color:white;
-  font-family: 'Lato', sans-serif;
+#contact p,
+h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
 }
 
 #contact p {
@@ -10900,6 +10893,68 @@ text-align: right;
 .source-code {
   margin-top: 5px;
   background-color: green;
-  color:white;
+  color: white;
   border: none;
+}
+
+.brands {
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.brands_slider_container {
+  height: 130px;
+  border: solid 1px #f7f7f7;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 97px;
+  padding-right: 97px;
+  background: #f7f7f7;
+}
+
+.brands_slider {
+  height: 100%;
+  margin-top: 25px;
+}
+
+.brands_item {
+  height: 100%;
+}
+
+.brands_item img {
+  max-width: 120px;
+  max-height: 100px;
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+  color: #676767;
+}
+
+.brands_prev {
+  left: 40px;
+}
+
+.brands_next {
+  right: 40px;
 }
